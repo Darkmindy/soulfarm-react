@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    height: 600px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+.right {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8));
+}
+
+.title {
+    font-family: 'MADE Dillan', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    background: linear-gradient(90deg, #56D698 8%, #3C8D3A 100%);
+    -webkit-background-clip: text;
+    background-clip: text; /* Aggiungi questa riga */
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-family: 'MADE Dillan', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    color: #1c1c1c;
+}
+
+.description strong {
+    font-weight: bold;
+}
