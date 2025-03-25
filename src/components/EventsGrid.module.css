@@ -1,0 +1,46 @@
+.eventsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.eventCard {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.eventCard:hover {
+    transform: scale(1.05);
+}
+
+.eventContent {
+    position: relative;
+    z-index: 1;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay semi-trasparente */
+}
+
+.eventTitle {
+    margin-bottom: 0.5rem;
+}
+
+.eventDescription {
+    font-size: 0.9rem;
+}
+
+/* Stili per mobile */
+@media (max-width: 768px) {
+    .eventsGrid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}

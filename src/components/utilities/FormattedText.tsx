@@ -19,7 +19,7 @@ const FormattedText: React.FC<FormattedTextProps> = ({ children, className }) =>
                         return <React.Fragment key={index}>{part}</React.Fragment>;
                     }
                 } else {
-                    return part; // Restituisci 'part' se non è una stringa
+                    return part;
                 }
             })}
         </span>
