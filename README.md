@@ -1,22 +1,83 @@
-# Soulfarm React
+# Soulfarm React - Replica della Homepage
 
-Questo repository contiene il codice sorgente per la replica del sito web Soulfarm, sviluppata utilizzando React, Vite, TypeScript e pnpm.
+Questo progetto React replica fedelmente la homepage del sito web Soulfarm (https://soulfarm.it/). Utilizza Vite, TypeScript, React e TailwindCSS per un'esperienza di sviluppo efficiente e un codice ben strutturato.
 
-## Tecnologie utilizzate
+## Indice dei Contenuti
 
-* React: Libreria JavaScript per la creazione di interfacce utente.
-* Vite: Strumento di build veloce per applicazioni web moderne.
-* TypeScript: Linguaggio di programmazione che aggiunge tipi statici a JavaScript.
-* TailwindCSS 3: 
-* pnpm: Gestore di pacchetti veloce ed efficiente.
+- [Soulfarm React - Replica della Homepage](#soulfarm-react---replica-della-homepage)
+- [Indice dei Contenuti](#indice-dei-contenuti)
+- [Installazione](#installazione)
+- [Tecnologie Utilizzate (Frontend)](#tecnologie-utilizzate-frontend)
+- [Struttura del Progetto](#struttura-del-progetto)
+- [Componenti Principali](#componenti-principali)
+- [CSS Modules](#css-modules)
+- [Responsive Design](#responsive-design)
+- [Crediti](#crediti)
 
 ## Installazione
 
-1.  Clona il repository: `git clone`
-2.  Naviga nella cartella del progetto: `cd soulfarm-react`
-3.  Installa le dipendenze: `pnpm install`
-4.  Avvia il server di sviluppo: `pnpm run dev`
+1.  Clona la repository da GitHub:
 
-## Contributi
+    ```bash
+    git clone https://github.com/Darkmindy/soulfarm-react.git
+    cd soulfarm-react
+    ```
 
-I contributi sono benvenuti! Se trovi bug o hai suggerimenti per miglioramenti, apri un issue o invia una pull request.
+2.  Installa le dipendenze utilizzando pnpm:
+
+    ```bash
+    pnpm install
+    ```
+
+3.  Avvia il server di sviluppo:
+
+    ```bash
+    pnpm run dev
+    ```
+
+4.  Apri il browser all'indirizzo `http://localhost:5173` (o la porta indicata da Vite).
+
+## Tecnologie Utilizzate (Frontend)
+
+-   **React:** Libreria JavaScript per la creazione di interfacce utente.
+-   **TypeScript:** Linguaggio di programmazione che aggiunge tipizzazione statica a JavaScript.
+-   **Vite:** Strumento di build veloce per applicazioni web moderne.
+-   **TailwindCSS v.3:** Framework CSS utility-first per uno styling rapido e personalizzato.
+-   **pnpm:** Gestore di pacchetti JavaScript veloce ed efficiente.
+
+## Struttura del Progetto
+
+| Cartella/File | Descrizione/Scopo |
+|---|---|
+| `src/assets/images/` | Immagini del progetto |
+| `src/assets/fonts/` | Font del progetto |
+| `src/components/EventsGrid.tsx` | Componente per visualizzare la griglia degli eventi |
+| `src/sections/Header.tsx` | Intestazione del sito |
+| `src/sections/Hero.tsx` | Sezione introduttiva |
+| `src/sections/Planetarium.tsx` | Sezione del banner dedicato al Planetario |
+| `src/sections/Newsletter.tsx` | Sezione dedicata al banner della newsletter |
+| `src/sections/Footer.tsx` | Piè di pagina |
+| `src/App.tsx` | Componente principale dell'applicazione |
+| `src/main.tsx` | Punto di ingresso dell'applicazione |
+| `src/Products.module.css` | Stili per il componente Products |
+| `public/` | File statici |
+| `package.json` | Informazioni sul progetto e dipendenze |
+| `pnpm-lock.yaml` | Lock file per pnpm |
+| `vite.config.ts` | Configurazione di Vite |
+
+## Componenti Principali
+
+- **Header**: Intestazione del sito con logo e menu di navigazione.
+- **Hero**: Sezione introduttiva principale con immagine di sfondo e testo.
+- **EventsGrid**: Griglia che visualizza gli eventi in programma.
+- **PlanetariumSection**: Sezione dedicata a promuovere il planetario.
+- **Newsletter**: Sezione per invitare gli utenti a iscriversi alla newsletter.
+- **Footer**: Piè di pagina con informazioni di contatto e link utili.
+
+## Responsive Design
+
+Il progetto è progettato per essere responsivo e adattarsi a diverse dimensioni dello schermo. Le classi TailwindCSS vengono utilizzate per gestire i layout e gli stili in base ai diversi breakpoint.
+
+## Crediti
+
+Questo progetto è stato creato da \[Stefania Deliso] come replica della homepage di Soulfarm.
