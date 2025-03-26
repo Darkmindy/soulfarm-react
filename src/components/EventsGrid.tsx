@@ -70,11 +70,14 @@ const EventsGrid: React.FC = () => {
                     className="w-[360px] h-[360px] object-cover"
                   />
                 </div>
-                <div className="w-[360px] flex flex-col gap-2"> {/* Ho rimosso items-center */}
-                  <span className="font-normal text-[24px] text-[#1c1c1c] text-left"> {/* Ho aggiunto text-left */}
+                <div className="w-[360px] flex flex-col gap-2">
+                  <span
+                    className="font-normal text-[24px] text-[#1c1c1c] text-left"
+                    style={{ fontFamily: "MADE Dillan, sans-serif" }}
+                  >
                     {event.title}
                   </span>
-                  <span className="text-base text-[#1c1c1c] text-left" dangerouslySetInnerHTML={{ __html: event.description }} /> {/* Ho aggiunto text-left */}
+                  <span className="text-base text-[#1c1c1c] text-left" dangerouslySetInnerHTML={{ __html: event.description }} />
                 </div>
               </div>
             ))}
