@@ -1,11 +1,11 @@
 @tailwind base;
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;700&display=swap'); /* Deve stare subito dopo @tailwind base */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;700&display=swap');
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
   font-family: "MADE Dillan";
-  src: url("/assets/fonts/MADE-Dillan.otf") format("opentype");
+  src: url("./assets/fonts/MADE Dillan.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

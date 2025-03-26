@@ -1,6 +1,6 @@
 import React from "react";
 import heroBg from "../assets/images/hero-image.png";
-import EventsGrid from "./EventsGrid"; // Assicurati che il percorso sia corretto
+import EventsGrid from "./EventsGrid";
 
 const HeroWithEvents: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const HeroWithEvents: React.FC = () => {
           <div className="w-[640px] flex flex-col justify-center gap-4">
             <h1
               className="text-[100px] leading-[1.1] text-[#1c1c1c]"
-              style={{ fontFamily: "MADE Dillan, sans-serif", fontWeight: "normal" }}
+              style={{ fontFamily: "MADE Dillan", fontWeight: "normal" }}
             >
               <span className="bg-gradient-to-b from-[#56D698] to-[#3C8D3A] bg-clip-text text-transparent">
                 Soulfarm
