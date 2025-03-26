@@ -1,6 +1,6 @@
 # Soulfarm React - Replica della Homepage
 
-Questo progetto React replica fedelmente la homepage del sito web Soulfarm (https://soulfarm.it/). Utilizza Vite, TypeScript, React e TailwindCSS per un'esperienza di sviluppo efficiente e un codice ben strutturato.
+Questo progetto replica fedelmente la homepage del sito web Soulfarm (https://soulfarm.it/). Utilizza Vite, TypeScript, React e TailwindCSS per un'esperienza di sviluppo efficiente e un codice ben strutturato.
 
 ## Indice dei Contenuti
 
@@ -10,7 +10,6 @@ Questo progetto React replica fedelmente la homepage del sito web Soulfarm (http
 - [Tecnologie Utilizzate (Frontend)](#tecnologie-utilizzate-frontend)
 - [Struttura del Progetto](#struttura-del-progetto)
 - [Componenti Principali](#componenti-principali)
-- [CSS Modules](#css-modules)
 - [Responsive Design](#responsive-design)
 - [Crediti](#crediti)
 
