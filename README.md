@@ -55,6 +55,7 @@ Questo progetto React replica fedelmente la homepage del sito web Soulfarm (http
 | `src/sections/Header.tsx` | Intestazione del sito |
 | `src/sections/Hero.tsx` | Sezione introduttiva |
 | `src/sections/Planetarium.tsx` | Sezione del banner dedicato al Planetario |
+| `src/sections/ProductsCarousel.tsx` | Sezione carosello dei prodotti |
 | `src/sections/Newsletter.tsx` | Sezione dedicata al banner della newsletter |
 | `src/sections/Footer.tsx` | Piè di pagina |
 | `src/App.tsx` | Componente principale dell'applicazione |
@@ -71,6 +72,7 @@ Questo progetto React replica fedelmente la homepage del sito web Soulfarm (http
 - **Hero**: Sezione introduttiva principale con immagine di sfondo e testo.
 - **EventsGrid**: Griglia che visualizza gli eventi in programma.
 - **PlanetariumSection**: Sezione dedicata a promuovere il planetario.
+- **ProductsCarousel**: Sezione dedicata alle novità in bottega.
 - **Newsletter**: Sezione per invitare gli utenti a iscriversi alla newsletter.
 - **Footer**: Piè di pagina con informazioni di contatto e link utili.
 

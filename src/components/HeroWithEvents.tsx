@@ -7,7 +7,6 @@ const HeroWithEvents: React.FC = () => {
     <div className="relative">
       {/* Sezione Hero */}
       <section className="relative flex self-stretch h-[944px] overflow-hidden">
-        {/* Testo con sfondo bianco sfumato */}
         <div className="absolute inset-0 w-1/2 bg-gradient-to-r from-white via-white/90 to-transparent z-10"></div>
 
         <div className="relative z-20 flex justify-center items-center w-[800px] px-20 py-10">
@@ -25,7 +24,9 @@ const HeroWithEvents: React.FC = () => {
               className="font-bold text-[18px] leading-[26px] text-[#1c1c1c]"
               style={{ fontFamily: "Lexend, sans-serif", fontWeight: "700" }}
             >
-              L’azienda è certificata biologica ed è<br/> composta da orto, frutteto<br/> e pascolo.
+              L’azienda è certificata biologica ed è<br/> 
+              composta da orto, frutteto<br/> 
+              e pascolo.
             </p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import logo from '../assets/images/logo.png'; // Assicurati che il percorso sia corretto
+import logo from '../assets/images/logo.png';
 
 const navLinks = [
     { path: "/", label: "Azienda agricola" },
@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         <header className="flex justify-between items-center self-stretch h-20 bg-[#216545] px-20 py-6">
             <div className="w-[67px] h-10">
                 <a href="/" className="flex items-center">
-                    <img src={logo} alt="Logo Soulfarm" className="h-full w-full object-contain" /> {/* Adatta l'immagine alle dimensioni del div */}
+                    <img src={logo} alt="Logo Soulfarm" className="h-full w-full object-contain" />
                 </a>
             </div>
             <nav>
