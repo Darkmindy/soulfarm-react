@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'MADE Dillan';
+    src: url('assets/fonts/MADE Dillan.otf') format('opentype'); /* Assicurati che il percorso sia corretto */
+    font-weight: normal; /* O 400 */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Lexend';
+    src: url('assets/fonts/Lexend-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .title, .subtitle {
+    font-family: 'MADE Dillan', sans-serif;
+    font-weight: bold; /* Opzionale: prova a simulare il grassetto */
+  }
+  
+  .description {
+    font-family: 'Lexend', sans-serif;
+  }
+
 html, body {
     margin: 0;
     padding: 0;

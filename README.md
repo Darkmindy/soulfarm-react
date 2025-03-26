@@ -7,6 +7,7 @@ Questo repository contiene il codice sorgente per la replica del sito web Soulfa
 * React: Libreria JavaScript per la creazione di interfacce utente.
 * Vite: Strumento di build veloce per applicazioni web moderne.
 * TypeScript: Linguaggio di programmazione che aggiunge tipi statici a JavaScript.
+* TailwindCSS 3: 
 * pnpm: Gestore di pacchetti veloce ed efficiente.
 
 ## Installazione
