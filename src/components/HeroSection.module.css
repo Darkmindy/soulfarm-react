@@ -1,59 +1,52 @@
 .hero {
   display: flex;
-  height: 100vh;
-}
-
-.leftContent {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
-}
-
-.rightContent {
-  flex: 1;
   position: relative;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  background-color: white;
+  padding: 5rem 8%;
 }
 
-.heroImage {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('../assets/images/hero-image.png');
-  background-size: cover;
-  background-position: center;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8)); 
+.left {
+  flex: 1;
+  z-index: 2;
 }
 
 .title {
-  font-family: 'MADE Dillan', sans-serif;
-  font-weight: 900;
-  font-size: 6vw;
-  background: linear-gradient(90deg, #56D698 8%, #3C8D3A 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #2c5e1a;
 }
 
 .subtitle {
-  font-family: 'MADE Dillan', sans-serif;
-  font-weight: 900;
-  font-size: 4vw;
+  font-size: 2.2rem;
+  font-weight: bold;
   color: black;
-  margin-bottom: 2rem;
 }
 
 .description {
-  font-family: 'Lexend', sans-serif;
   font-size: 1.2rem;
-  color: #1c1c1c;
+  color: #333;
+  max-width: 500px;
 }
 
-.description strong {
-  font-weight: bold;
+/* Colonna destra con immagine di sfondo */
+.right {
+  flex: 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Effetto gradiente sulla sinistra per sfumare l'immagine */
+.right::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, white 20%, transparent 80%);
 }
