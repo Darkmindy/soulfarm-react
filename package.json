@@ -1,13 +1,16 @@
 {
-  "name": "soulfarm-react",
+"name": "soulfarm-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://darkmindy.github.io/soulfarm-react/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -23,6 +26,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.0.0",
