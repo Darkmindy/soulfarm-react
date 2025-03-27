@@ -13,12 +13,14 @@ const Newsletter: React.FC = () => {
 
     return (
         <div className="flex flex-col justify-center items-center gap-10 self-stretch bg-[#f8f1e2] p-20">
-            <div className="flex flex-col justify-center items-center gap-6 self-stretch bg-white px-10 py-[120px] rounded-2xl">
-                <img
-                    className="w-full h-[486px] object-cover rounded-t-2xl"
-                    src={newsletterImage}
-                    alt="Newsletter Banner"
-                />
+            <div
+                className="flex flex-col justify-center items-center gap-6 self-stretch bg-white px-10 py-[120px] rounded-2xl"
+                style={{
+                    backgroundImage: `url(${newsletterImage})`,
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}
+            >
                 <div className="flex flex-col justify-center items-center gap-4">
                     <span
                         className="font-normal text-[40px] text-center text-white"

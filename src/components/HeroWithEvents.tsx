@@ -41,7 +41,6 @@ const HeroWithEvents: React.FC = () => {
         </div>
       </section>
 
-      {/* Sezione Eventi con sovrapposizione */}
       <div className="relative -mt-20 z-10 rounded-2xl shadow-lg p-8">
         <EventsGrid />
       </div>
