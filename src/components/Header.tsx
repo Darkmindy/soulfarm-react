@@ -13,7 +13,7 @@ const navLinks = [
 
 const Header: React.FC = () => {
     return (
-        <header className="flex justify-between items-center self-stretch h-20 bg-[#216545] px-20 py-6">
+        <header className="sticky top-0 flex justify-between items-center self-stretch h-20 bg-[#216545] px-20 py-6" style={{ zIndex: 500 }}>
             <div className="w-[67px] h-10">
                 <a href="/" className="flex items-center">
                     <img src={logo} alt="Logo Soulfarm" className="h-full w-full object-contain" />

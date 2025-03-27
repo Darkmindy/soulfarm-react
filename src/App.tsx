@@ -4,6 +4,7 @@ import HeroWithEvents from "./components/HeroWithEvents";
 import PlanetariumSection from "./components/PlanetariumSection";
 import ProductsCarousel from "./components/ProductsCarousel";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
       <PlanetariumSection />
       <ProductsCarousel />
       <Newsletter />
+      <Footer />
     </div>
   );
 };
